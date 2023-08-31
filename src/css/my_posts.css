@@ -1,0 +1,17 @@
+.post {
+  flex: 0 0 29%;
+  max-width: 29%;
+}
+.post__name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.post__descr {
+  max-height: 97px;
+  white-space: break-spaces;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/*# sourceMappingURL=my_posts.css.map */

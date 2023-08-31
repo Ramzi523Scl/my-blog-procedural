@@ -1,0 +1,32 @@
+.regist {
+  &__body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  &__content {
+    height: auto;
+    background-color: #f5f5f5;
+    width: 400px;
+    padding: 25px;
+    border-radius: 10px;
+  }
+  &__title {
+  }
+
+  &__form {
+  }
+  &__btn {
+    width: 100%;
+  }
+  &__link {
+    text-align: center;
+  }
+  &__link-sing-in {
+    margin-top: 50px;
+  }
+}
+
+

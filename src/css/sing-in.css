@@ -1,0 +1,27 @@
+.sing-in__body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sing-in__content {
+  height: auto;
+  background-color: #f5f5f5;
+  width: 380px;
+  padding: 25px;
+  border-radius: 10px;
+}
+.sing-in__btn {
+  width: 100%;
+}
+.sing-in__link {
+  text-align: center;
+}
+.sing-in__link-pass {
+  color: black;
+}
+.sing-in__link-resit {
+  margin-top: 50px;
+}
+
+/*# sourceMappingURL=sing-in.css.map */

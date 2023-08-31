@@ -1,0 +1,21 @@
+
+.my__post {
+  &__post{}
+}
+.post {
+  flex: 0 0 29%;
+  max-width: 29%;
+  &__name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+  }
+  &__descr {
+    max-height: 97px;
+    white-space: break-spaces;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+  }
+}

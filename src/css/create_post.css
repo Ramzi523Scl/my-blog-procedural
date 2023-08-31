@@ -1,0 +1,13 @@
+.post {
+  margin-top: 50px;
+}
+.post__content {
+  background-color: #f5f5f5;
+  padding: 40px;
+  border-radius: 10px;
+}
+.post__item {
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=create_post.css.map */

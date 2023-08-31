@@ -1,0 +1,149 @@
+p, h4 {
+  margin: 0;
+  padding: 0;
+}
+.profile {
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  &__my-name {
+    display: flex;
+    margin-top: 100px;
+    //border: 1px solid red;
+    margin-bottom: 35px;
+  }
+  &__content {
+    width: 100%;
+  }
+  &__item {
+    margin-bottom: 25px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 30px 80px;
+    display: flex;
+
+  }
+  &__about-me {
+  }
+  &__email {
+  }
+  &__nickname {
+  }
+
+  &__password {
+  }
+
+}
+
+
+.my-name {
+  &__item {
+    padding: 8px 5px;
+  }
+  &__img {
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    /* width: 10px; */
+    /* background-color: rgba(48, 79, 67, 0.53); */
+    margin-right: 20px;
+  }
+
+  &__info {
+  }
+}
+
+
+
+.item {
+
+  &__left {
+    flex: 0 1 50%;
+
+
+  }
+
+  &-title {
+  }
+
+  &__right {
+    flex: 0 1 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  &__form {
+    flex: 0 1 50%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__input {
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    //line-height: 20px;
+    font-size: 15px;
+    border: 0.5px solid #e6e6e6;
+
+  }
+
+  &__radio-content {
+    display: flex;
+  }
+
+  &__radio {
+    margin-right: 20px;
+  }
+
+  &__btn {
+    margin-top: 20px;
+    //width: 200px;
+    padding: 6px 0;
+    width: 100px;
+    background-color: #2267d0;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    transition: ease-in 0.2s;
+  }
+
+  &__btn:hover {
+    background-color: black;
+
+
+  }
+  &__btn:active {
+    border: 1px solid black;
+  }
+
+
+}
+
+
+.about-me {
+  &__inp {
+  }
+
+}
+
+.email {
+  &__inp {
+  }
+}
+
+.nickname {
+  &__inp {
+  }
+}
+
+.password {
+  &__inp {
+  }
+}
+

@@ -1,0 +1,19 @@
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+.header {
+    background-color: #ff6262;
+}
+.header__menu {
+    margin: 0 auto;
+}
+
+.error-input {
+    border-color: #fe6b6b;
+    background-color: #fff0f0;
+}
+
+.input-link {
+    background-color: rgba(242,242,242,0); border: none; color: #FFFFFF8C; padding: 0;
+}
